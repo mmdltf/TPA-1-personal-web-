@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+ 
+}
+
+#header{
+    height:100vh;
+    width: 100%;
+    background-image: url('https://i.postimg.cc/rmqnY0nh/pexels-mads-thomsen-2739013.jpg') ;
+    background-size:85%;
+    background-position:center;
+    
+}
+
+.konten{
+    padding: 10px 10%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 75px 20px;
+    letter-spacing: 3px;
+    position: static;
+}
+
+
+.logo{
+    border-radius: 100px;
+    letter-spacing: 5px;
+    transform: scale(1);
+    transition: 2s;
+    cursor: pointer;
+    font-size: 35px;
+    font-size: 49px;
+    transition: transform 1s
+}
+
+.logo:hover{
+    transform: scaleY(1.3);
+    transform: scaleX(0.9);
+}
+/* transition: transform 1s;
+transform: scale(0.9); */
+/* transform: scaleY(1.1);
+    transform: scaleX(0.9); */
+.logo span{
+    color:  rgb(154, 188, 30);
+    font-weight: bold;
+
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 700;
+    /* position: r; */
+    /* transform: scale(2); */
+    transition: transform 1s;
+    
+}
+
+/* transition: transform 1s;
+transform: scale(0.9); */
+
+nav ul li a:hover {
+
+    transform: scaleY(1.1);
+transform: scaleX(0.9);
+}
+
+
+/* .grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); } */
+
+.isinya{
+transform: scale(0.8);
+transition: 2s;
+margin-left:2%;
+margin-top: 10%;
+}
+
+/* span{
+    color: gold;
+} */
+
+.teks-1 {
+    padding-bottom: 0.5cm;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    cursor: pointer;
+    
+    
+}
+.teks-1  span{
+    color: rgb(154, 188, 30);
+    text-transform: uppercase;
+}
+
+.teks-2  {
+    padding-bottom: 0.2cm;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 70px;
+    color: rgb(102, 255, 0);
+    font-weight: 900;
+    cursor: pointer;
+
+    
+}
+.teks-3 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#about {
+    padding: 80 px 0;
+    color: #000000;
+    background-color: rgb(25, 23, 23);
+    height:100vh;
+    width: 90%;
+    background-image: url('https://i.postimg.cc/XJkX1n16/pexels-eberhard-grossgasteiger-1292115.jpg') ;
+    background-size:85%;
+    background-position:center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.kolom-1{
+    flex-basis: 35%;
+
+}
+ 
+.kolom-1 img{
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+    transition: transform 1s;
+    cursor: pointer;
+} 
+/* transition: transform 1s;
+transform: scale(0.9); */
+.kolom-1:hover img{
+    transform: scale(0.9);
+}
+
+.kolom-2{
+    flex-basis:55%;
+    align-self: flex-start;
+}
+
+.konten-kolom-2{
+    font-size: 60px;
+    font-weight: 800;
+    padding-bottom: 2cm;
+    transition: 1.4s;
+    
+}
+.konten-kolom-2:hover{
+    transform: scaleY(1.1);
+    transform: scaleX(0.9); 
+    cursor: pointer;
+}
+
+.konten-kolom-2-paragraf{
+    
+    cursor: pointer;
+}
+
+p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+  
+}
+
+
+/*porto*/
+
+#porto {
+    padding: 80 px 0;
+    color: #000000;
+    background-color: rgb(25, 23, 23);
+    height:100vh;
+    width: 100%;
+    background-image: url('https://i.postimg.cc/j2TdyBR3/pexels-sam-kolder-2387873.jpg') ;
+    background-size:85%;
+    background-position:center;
+   
+}
+
+.row-porto{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.kolom-1-porto{
+    flex-basis: 20%;
+
+}
+ 
+.kolom-1-porto img{
+    width: 85%;
+    display: block;
+    border-radius: 15px;
+    transition: transform 1s;
+    cursor: pointer;
+} 
+/* transition: transform 1s;
+transform: scale(0.9); */
+.kolom-1-porto:hover img{
+    transform: scale(0.9);
+}
+
+.kolom-2-porto{
+    flex-basis: 30%;
+
+}
+ 
+.kolom-2-porto img{
+    width: 85%;
+    display: block;
+    border-radius: 15px;
+    transition: transform 1s;
+    cursor: pointer;
+} 
+/* transition: transform 1s;
+transform: scale(0.9); */
+.kolom-2-porto:hover img{
+    transform: scale(0.9);
+}
+
+
+.kolom-3-porto{
+    flex-basis: 35%;
+
+}
+ 
+.kolom-3-porto img{
+    width: 85%;
+    display: block;
+    border-radius: 15px;
+    transition: transform 1s;
+    cursor: pointer;
+} 
+/* transition: transform 1s;
+transform: scale(0.9); */
+.kolom-3-porto:hover img{
+    transform: scale(0.9);
+}
+
+
+.kolom-penjelasan-porto{
+    letter-spacing: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    font-size: 50 px;
+    color: white ;
+    margin-left: 40px;
+    margin-top: 80px;
+    transition: transform 1.2s
+}
+
+.kolom-penjelasan-porto:hover{
+    transform: scaleY(1.1);
+    transform: scaleX(0.9);
+    cursor: pointer;
+}
+
+
+/* transform: scaleY(1.1);
+transform: scaleX(0.9); */
