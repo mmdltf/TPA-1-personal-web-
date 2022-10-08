@@ -27,10 +27,12 @@ nav {
 
 nav ul li {
     display: inline-block;
+    flex-wrap: wrap;
     list-style: none;
     margin: 75px 20px;
     letter-spacing: 3px;
     position: static;
+  
 }
 
 
@@ -64,9 +66,10 @@ nav ul li a{
     text-decoration: none;
     font-size: 21px;
     font-weight: 700;
+    
     /* position: r; */
     /* transform: scale(2); */
-    transition: transform 1s;
+    /* transition: transform 1s; */
     
 }
 
@@ -74,9 +77,13 @@ nav ul li a{
 transform: scale(0.9); */
 
 nav ul li a:hover {
+    color: rgb(142, 179, 19);
+    text-decoration: none;
+    box-sizing: content-box;
+    font-size: 23px;
+    font-weight: bold;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2500ms;
 
-    transform: scaleY(1.1);
-transform: scaleX(0.9);
 }
 
 
@@ -84,12 +91,32 @@ transform: scaleX(0.9);
 .grow:hover { transform: scale(1.1); } */
 
 .isinya{
-transform: scale(0.8);
+
 transition: 2s;
 margin-left:2%;
 margin-top: 10%;
+
+transform: scale(1);
 }
 
+.isinya span{
+    background-color: darkorange;
+    transition-property: background-color, color;
+  
+}
+
+/* .isinya span:hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100% ;
+    width: 100%;
+    background-color: darkorange;
+    background-color: darkorange;
+    transition: 2s;
+    transition: .3s ease;
+transition-property: background-color, color;
+} */
 /* span{
     color: gold;
 } */
@@ -98,7 +125,7 @@ margin-top: 10%;
     padding-bottom: 0.5cm;
     display: flex;
     justify-content: flex-start;
-    font-size: 70px;
+    font-size: 55px;
     color: rgb(255, 255, 255);
     font-weight: 900;
     cursor: pointer;
@@ -221,6 +248,7 @@ p{
 
 .kolom-1-porto{
     flex-basis: 20%;
+    
 
 }
  
@@ -296,3 +324,94 @@ transform: scale(0.9); */
 
 /* transform: scaleY(1.1);
 transform: scaleX(0.9); */
+
+/* sosmed */
+
+
+#sosmed {
+    padding: 150px 10px 0px 0px;
+    color: #000000;
+    background-color: rgb(25, 23, 23);
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://i.postimg.cc/KcW8rQMb/pexels-jack-krzysik-7753054.jpg') ;
+    background-size:cover;
+    background-position:center;
+}
+.kolom-1-sosmed{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: inherit;
+   
+
+}
+.kolom-1-sosmed img{
+    width: 40%;
+    /* display: grid; */
+    border-radius: 80px;
+    border-width: 20px;
+    border-color: rgb(212, 51, 51);
+    box-sizing: border-box;
+    transition: cubic-bezier(1, 0, 0, 1) 2.2s;
+    cursor: pointer;
+    box-shadow: 90px rgb(0, 0, 0);
+   
+} 
+.kolom-1-sosmed:hover img{
+    transform: scale(0.9);
+}
+
+
+.kolom-penjelasan-sosmed{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    left: cm;
+}
+
+.btn-sosmed{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    
+}
+
+.btn-sosmed img{
+    width: 8%;
+    height: 20%;
+    box-shadow: rgb(50, 78, 102);
+    padding-right: 15px;
+    margin-right: 60px;
+    cursor: pointer;
+    transition: cubic-bezier(0.895, 0.03, 0.685, 0.22) 0.4s;
+}
+
+.btn-sosmed img:hover{
+    transform: scale(0.8);
+}/* transform: scaleY(1.1);
+transform: scaleX(0.9); */
+
+.follow{
+    display: flex;
+    position: static;
+    top: 0;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 220PX;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-direction: row;
+    letter-spacing: 5px;
+    font-weight: 900;
+    cursor: pointer;
+ 
+}
+
+@media screen {min-width: 768px;
+
+    
+}
